@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="User Preferences">
+        <Preference app:key="seller_pref" app:singleLineTitle="true" app:summary="Add a new value to the seller dropdown." app:title="Add New Seller / नया सब्जी वाला जोड़े" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Admin Preferences">
+        <EditTextPreference app:dialogTitle="Enter Source Name" app:key="mandi_pref" app:persistent="true" app:summary="Add a new value to the source dropdown (Admin access only)." app:title="Add New Source" />
+        <EditTextPreference app:dialogTitle="Enter Commodity Name" app:key="commodity_pref" app:persistent="true" app:summary="Add a new value to the commodity dropdown (Admin access only)." app:title="Add New Commodity" />
+        <EditTextPreference app:dialogTitle="Enter Grade Type" app:key="grade_pref" app:persistent="true" app:summary="Add a new value to the grade dropdown (Admin access only)." app:title="Add New Grade Type" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Account Settings">
+        <Preference app:key="sign_out" app:singleLineTitle="true" app:summary="Log out of your account / लॉग आउट करें." app:title="Log Out / लॉग आउट" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "685253889544",
+    "firebase_url": "https://starkisan-d87fd.firebaseio.com",
+    "project_id": "starkisan-d87fd",
+    "storage_bucket": "starkisan-d87fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685253889544:android:799215b626a75422a98bbd",
+        "android_client_info": {
+          "package_name": "com.example.starkisan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685253889544-3g7rvhjo1rdtm2e4na0g1ij1jmq2brbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.starkisan",
+            "certificate_hash": "52e068ed43f4799c7ac74b011dce84615e160e41"
+          }
+        },
+        {
+          "client_id": "685253889544-knm1nebc1a6m95fignqigqj6ki2sk59v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIXWJTkxNuq_pHLbWEHej3m50o1AxAow4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685253889544-knm1nebc1a6m95fignqigqj6ki2sk59v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

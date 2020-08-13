@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_spinner_commodity">
+        <item>Apple / सेब</item>
+        <item>Banana (Per Dozen) / केला</item>
+        <item>Beans / बीन</item>
+        <item>Beet Root / चुकंदर</item>
+        <item>Bitter Gourd / करेला</item>
+        <item>Bottle Gourd / लौकी</item>
+        <item>Bottle Gourd (Gol) / लौकी</item>
+        <item>Bottle Gourd (Jaali Wali) / लौकी</item>
+        <item>Brinjal (Gol) / बैंगन</item>
+        <item>Brinjal (Lamba) / बैंगन</item>
+        <item>Cabbage / पत्ता गोभी</item>
+        <item>Capsicum / शिमला मिर्च</item>
+        <item>Cauliflower / फूल गोभी</item>
+        <item>Coriander / धनिया</item>
+        <item>Corn / मकई</item>
+        <item>Cucumber / खीरा</item>
+        <item>Garlic / लहसुन</item>
+        <item>Ginger / अदरक</item>
+        <item>Green Chilli (Patli) / हरी मिर्च</item>
+        <item>Jack Fruit / कटहल</item>
+        <item>Lady finger / भिंडी</item>
+        <item>Lemon / निम्बू</item>
+        <item>Mango Dusheri / आम दशेरी</item>
+        <item>Mint / पुदीना</item>
+        <item>Onion / प्याज़</item>
+        <item>Papaya / पपीता</item>
+        <item>Peas / मटर</item>
+        <item>Pointed Gourd / परवल</item>
+        <item>Potato / आलू</item>
+        <item>Potato Chipsona 3797 / आलू चिप्सोना- 3797</item>
+        <item>Potato Pahadi / आलू पहाड़ी</item>
+        <item>Pumpkin / कद्दू</item>
+        <item>Raw Mango / आम केरी</item>
+        <item>Ridge Gourd / तोरई</item>
+        <item>Spinach / पालक</item>
+        <item>Sweet Lime / मौसम्बी</item>
+        <item>Taro root / अरवी</item>
+        <item>Tomato Hybrid / टमाटर</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="items_spinner_export_choice">
+        <item>By Date</item>
+        <item>Export All</item>
+    </string-array>
+    <string-array name="items_spinner_grade">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="items_spinner_mandi">
+        <item>Azadpur / आजादपुर</item>
+        <item>Okhla / ओखला</item>
+        <item>Gazipur / गाजीपुर</item>
+        <item>Hapur / हापुड़</item>
+        <item>Gulaouthi / गुलाओथी</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <string-array name="ui_photo_picker_items">
+        <item>Take from camera</item>
+        <item>Select from gallery</item>
+    </string-array>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="txtName" />
+    <item type="id" name="textView" />
+    <item type="id" name="textView1" />
+    <item type="id" name="textViewProfile" />
+    <item type="id" name="text_data" />
+    <item type="id" name="spinnerCommodity" />
+    <item type="id" name="viewPager" />
+    <item name="updateBtn" type="id"/>
+    <item type="id" name="textureView" />
+    <item type="id" name="textview_imageurl"/>
+    <item type="id" name="input_export_email_id"/>
+    <item type="id" name="listView" />
+    <item type="id" name="historyListView" />
+    <item type="id" name="EditTextName" />
+    <item type="id" name="login_progress" />
+    <item type="id" name="imgaeView"/>
+    <item type="id" name="goBtn" />
+    <item type="id" name="btnSaveButton" />
+    <item type="id" name="btn_cancel" />
+    <item type="id" name="TextViewName" />
+    <item type="id" name="hello_blank_fragment"/>
+    <item type="id" name="entry_type"/>
+    <item type="id" name="entry_datetime"/>
+    <item type="id" name="entry_distance_duration"/>
+    <item type="id" name="imageView"/>
+    <item type="id" name="settings"/>
+    <item type="id" name="input_rate"/>
+    <item type="id" name="input_remarks"/>
+    <item type="id" name="start_upload_photo_btn"/>
+    <item type="id" name="entry_rate"/>
+    <item type="id" name="text_title"/>
+    <item type="id" name="spinner"/>
+    <item type="id" name="recycler_view"/>
+    <item type="id" name="seekbar"/>
+    <item type="id" name="seekbar_value"/>
+    <item type="id" name="switchWidget"/>
+    <item type="id" name="imageview"/>
+    <item type="id" name="commodity_entry_delete"/>
+    <item type="id" name="commodity_entry_save"/>
+    <item type="id" name="menuitem_commodity_entry_delete"/>
+    <item type="id" name="menuitem_commodity_entry_save"/>
+    <item type="id" name="menuitem_settings"/>
+    <item type="id" name="export_excel"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <item type="id" name="bottomNav" />
+
+    <item type="id" name="btn_done" />
+    <item type="id" name="commentEditText" />
+    <item type="id" name="commodityListview" />
+    <item type="id" name="fetchBtn" />
+    <item type="id" name="captureBtn" />
+    <item type="id" name="checkBox" />
+    <item type="id" name="checkbox" />
+    <item type="id" name="date_picker" />
+
+    <item type="id" name="editTextMobile" />
+    <item type="id" name="deleteBtn" />
+
+    <item type="id" name="dialogCommoditySpinner" />
+    <item type="id" name="dialogGradeSpinner" />
+    <item type="id" name="dialogSpinner" />
+    <item type="id" name="dialog_button" />
+    <item type="id" name="playBtn" />
+    <item type="id" name="numberEditText" />
+
+
+    <item type="id" name="spinnerExportChoice" />
+    <item type="id" name="month_title" />
+    <item type="id" name="mandiSpinner" />
+
+    <item type="id" name="spinnerGrade" />
+    <item type="id" name="navItemExport" />
+    <item type="id" name="navItemHistory" />
+    <item type="id" name="navItemStart" />
+    <item type="id" name="spinnerMandi" />
+    <item type="id" name="relativeLayout" />
+
+    <item type="id" name="resend_code" />
+
+    <item type="id" name="spinnerSeller" />
+    <item type="id" name="select_dialog_listview" />
+    <item type="id" name="sellerComments" />
+    <item type="id" name="savesellerbtn" />
+
+    <item type="id" name="sellerEditText" />
+    <item type="id" name="sellerName" />
+    <item type="id" name="sellerNumber" />
+    <item type="id" name="scrollView" />
+
+    <item type="id" name="sellersScrollView" />
+    <item name="entry_commodity" type="id" />
+    <item name="entry_source" type="id" />
+</resources>

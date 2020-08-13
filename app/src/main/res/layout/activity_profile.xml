@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/colorPrimaryDark" android:gravity="center_horizontal" android:id="@id/textViewProfile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Create Profile" />
+            <TextView android:textColor="@color/colorPrimaryDark" android:id="@id/TextViewName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Name" />
+            <EditText android:id="@id/EditTextName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:hint="Enter your name" android:ems="10" android:inputType="textPersonName|textCapSentences" />
+            <Button android:textColor="@color/colorPrimaryDark" android:layout_gravity="center" android:id="@id/btnSaveButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="OK" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView> ></androidx.coordinatorlayout.widget.CoordinatorLayout>

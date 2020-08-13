@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_create_new_folder_black_24dp" android:id="@id/navItemStart" android:title="New Entry" />
+    <item android:icon="@drawable/ic_edit_black_24dp" android:id="@id/navItemHistory" android:title="Edit Entry" />
+    <item android:icon="@drawable/ic_vertical_align_bottom_black_24dp" android:id="@id/navItemExport" android:title="Export" />
+</menu>
