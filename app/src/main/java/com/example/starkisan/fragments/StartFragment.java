@@ -75,6 +75,7 @@ public class StartFragment extends Fragment {
     private Button photoBtn;
     FirebaseStorage storage;
     StorageReference storageReference;
+    ArrayAdapter<String> sellerAdapter;
 
     private OnClickListener onPhotoBtnClick = new OnClickListener() {
         public void onClick(View view) {
@@ -311,13 +312,15 @@ public class StartFragment extends Fragment {
                             }
                         }
                         sellerList.add("Other");
-                        mSellerSpinner.setCustomAdapter(new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, sellerList));
+                        sellerAdapter = new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, sellerList);
+                        mSellerSpinner.setCustomAdapter(sellerAdapter);
                     }
                 }).addOnFailureListener(new OnFailureListener() {
                     public void onFailure(Exception e) {
                         List<String> sellerList = new ArrayList<>();
                         sellerList.add("Other");
-                        mSellerSpinner.setCustomAdapter(new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, sellerList));
+                        sellerAdapter = new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, sellerList);
+                        mSellerSpinner.setCustomAdapter(sellerAdapter);
                     }
                 });
             }
@@ -328,23 +331,29 @@ public class StartFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        db.collection("sellers").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-            public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-                List<SellerEntry> sellerEntries = queryDocumentSnapshots.toObjects(SellerEntry.class);
-                List<String> sellerList = new ArrayList<>();
-                for (SellerEntry seller : sellerEntries) {
-                    if (seller.getMandi().equals(mMandiSpinner.getSpinner().getSelectedItem().toString()) && seller.getCommodities().contains(mCommoditySpinner.getSpinner().getSelectedItem().toString())) {
-                        sellerList.add(seller.getName());
+        db.collection("preference_data").document("lists").get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+            public void onSuccess(DocumentSnapshot documentSnapshot) {
+                db.collection("sellers").get().addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                    public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                        List<SellerEntry> sellerEntries = queryDocumentSnapshots.toObjects(SellerEntry.class);
+                        List<String> sellerList = new ArrayList<>();
+                        for (SellerEntry seller : sellerEntries) {
+                            if (seller.getMandi().equals(mMandiSpinner.getSpinner().getSelectedItem().toString()) && seller.getCommodities().contains(mCommoditySpinner.getSpinner().getSelectedItem().toString())) {
+                                sellerList.add(seller.getName());
+                            }
+                        }
+                        sellerList.add("Other");
+                        sellerAdapter = new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, sellerList);
+                        mSellerSpinner.setCustomAdapter(sellerAdapter);
                     }
-                }
-                sellerList.add("Other");
-                mSellerSpinner.setCustomAdapter(new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, sellerList));
-            }
-        }).addOnFailureListener(new OnFailureListener() {
-            public void onFailure(Exception e) {
-                List<String> sellerList = new ArrayList<>();
-                sellerList.add("Other");
-                mSellerSpinner.setCustomAdapter(new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, sellerList));
+                }).addOnFailureListener(new OnFailureListener() {
+                    public void onFailure(Exception e) {
+                        List<String> sellerList = new ArrayList<>();
+                        sellerList.add("Other");
+                        sellerAdapter = new ArrayAdapter<>(getContext(), R.layout.support_simple_spinner_dropdown_item, sellerList);
+                        mSellerSpinner.setCustomAdapter(sellerAdapter);
+                    }
+                });
             }
         });
     }
